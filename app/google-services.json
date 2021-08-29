@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "712472041407",
+    "firebase_url": "https://budgetto-test-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "budgetto-test",
+    "storage_bucket": "budgetto-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712472041407:android:f8c4261978cac5a720f30a",
+        "android_client_info": {
+          "package_name": "pl.cyfrogen.budget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712472041407-h5bgk8fccj04nqfgecsglnvcofmageoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1d25lWw2lS5mB3x8_YwnlfQC3yNKB2sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712472041407-h5bgk8fccj04nqfgecsglnvcofmageoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
