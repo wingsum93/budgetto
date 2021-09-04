@@ -5,12 +5,13 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.ColorStateList;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -23,13 +24,13 @@ import pl.cyfrogen.budget.R;
 import pl.cyfrogen.budget.firebase.FirebaseElement;
 import pl.cyfrogen.budget.firebase.FirebaseObserver;
 import pl.cyfrogen.budget.firebase.ListDataSet;
-import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
-import pl.cyfrogen.budget.firebase.viewmodel_factories.WalletEntriesHistoryViewModelFactory;
 import pl.cyfrogen.budget.firebase.models.User;
 import pl.cyfrogen.budget.firebase.models.WalletEntry;
-import pl.cyfrogen.budget.util.CategoriesHelper;
+import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
+import pl.cyfrogen.budget.firebase.viewmodel_factories.WalletEntriesHistoryViewModelFactory;
 import pl.cyfrogen.budget.models.Category;
 import pl.cyfrogen.budget.ui.main.history.edit_entry.EditWalletEntryActivity;
+import pl.cyfrogen.budget.util.CategoriesHelper;
 import pl.cyfrogen.budget.util.CurrencyHelper;
 
 public class WalletEntriesRecyclerViewAdapter extends RecyclerView.Adapter<WalletEntryHolder> {

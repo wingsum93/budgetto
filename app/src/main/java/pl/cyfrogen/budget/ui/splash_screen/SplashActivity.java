@@ -1,8 +1,9 @@
 package pl.cyfrogen.budget.ui.splash_screen;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import pl.cyfrogen.budget.ui.signin.SignInActivity;
 

@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -15,6 +13,9 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
@@ -41,10 +42,10 @@ import pl.cyfrogen.budget.firebase.models.User;
 import pl.cyfrogen.budget.firebase.models.WalletEntry;
 import pl.cyfrogen.budget.firebase.viewmodel_factories.TopWalletEntriesStatisticsViewModelFactory;
 import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
-import pl.cyfrogen.budget.util.CalendarHelper;
-import pl.cyfrogen.budget.util.CategoriesHelper;
 import pl.cyfrogen.budget.models.Category;
 import pl.cyfrogen.budget.ui.options.OptionsActivity;
+import pl.cyfrogen.budget.util.CalendarHelper;
+import pl.cyfrogen.budget.util.CategoriesHelper;
 import pl.cyfrogen.budget.util.CurrencyHelper;
 
 

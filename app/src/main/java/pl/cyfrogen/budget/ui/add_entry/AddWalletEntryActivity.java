@@ -4,8 +4,6 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.TextInputEditText;
-import android.support.design.widget.TextInputLayout;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +12,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.text.SimpleDateFormat;
@@ -22,18 +22,18 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import pl.cyfrogen.budget.R;
 import pl.cyfrogen.budget.activities.CircularRevealActivity;
 import pl.cyfrogen.budget.exceptions.EmptyStringException;
 import pl.cyfrogen.budget.exceptions.ZeroBalanceDifferenceException;
 import pl.cyfrogen.budget.firebase.FirebaseElement;
 import pl.cyfrogen.budget.firebase.FirebaseObserver;
-import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
 import pl.cyfrogen.budget.firebase.models.User;
-import pl.cyfrogen.budget.util.CategoriesHelper;
-import pl.cyfrogen.budget.models.Category;
-import pl.cyfrogen.budget.util.CurrencyHelper;
-import pl.cyfrogen.budget.R;
 import pl.cyfrogen.budget.firebase.models.WalletEntry;
+import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
+import pl.cyfrogen.budget.models.Category;
+import pl.cyfrogen.budget.util.CategoriesHelper;
+import pl.cyfrogen.budget.util.CurrencyHelper;
 
 public class AddWalletEntryActivity extends CircularRevealActivity {
 

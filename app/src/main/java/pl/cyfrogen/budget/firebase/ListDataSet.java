@@ -1,9 +1,8 @@
 package pl.cyfrogen.budget.firebase;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ListDataSet<T> {

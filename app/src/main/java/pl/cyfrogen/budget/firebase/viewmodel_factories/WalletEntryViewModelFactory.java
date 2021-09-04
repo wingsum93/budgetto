@@ -1,14 +1,10 @@
 package pl.cyfrogen.budget.firebase.viewmodel_factories;
 
-import android.arch.lifecycle.ViewModel;
-import android.arch.lifecycle.ViewModelProvider;
-import android.arch.lifecycle.ViewModelProviders;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelProviders;
 
-import com.google.firebase.database.FirebaseDatabase;
-
-import pl.cyfrogen.budget.firebase.models.User;
-import pl.cyfrogen.budget.firebase.viewmodels.UserProfileBaseViewModel;
 import pl.cyfrogen.budget.firebase.viewmodels.WalletEntryBaseViewModel;
 
 public class WalletEntryViewModelFactory implements ViewModelProvider.Factory {

@@ -2,14 +2,14 @@ package pl.cyfrogen.budget.ui.options.categories;
 
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.support.design.widget.TextInputEditText;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.FirebaseDatabase;
 import com.pes.androidmaterialcolorpickerdialog.ColorPicker;
 

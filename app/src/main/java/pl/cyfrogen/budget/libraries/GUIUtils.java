@@ -8,13 +8,12 @@ package pl.cyfrogen.budget.libraries;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
-import android.support.annotation.ColorRes;
-import android.support.v4.view.animation.LinearOutSlowInInterpolator;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
+
+import androidx.annotation.ColorRes;
 
 import pl.cyfrogen.budget.R;
 

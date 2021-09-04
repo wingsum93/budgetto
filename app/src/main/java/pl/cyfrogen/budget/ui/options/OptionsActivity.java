@@ -1,8 +1,9 @@
 package pl.cyfrogen.budget.ui.options;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import pl.cyfrogen.budget.R;
 

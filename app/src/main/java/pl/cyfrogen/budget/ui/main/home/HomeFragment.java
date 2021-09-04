@@ -2,8 +2,6 @@ package pl.cyfrogen.budget.ui.main.home;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -12,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -23,22 +24,22 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import pl.cyfrogen.budget.R;
+import pl.cyfrogen.budget.base.BaseFragment;
 import pl.cyfrogen.budget.firebase.FirebaseElement;
 import pl.cyfrogen.budget.firebase.FirebaseObserver;
+import pl.cyfrogen.budget.firebase.ListDataSet;
+import pl.cyfrogen.budget.firebase.models.User;
 import pl.cyfrogen.budget.firebase.models.UserSettings;
-import pl.cyfrogen.budget.base.BaseFragment;
-import pl.cyfrogen.budget.util.CalendarHelper;
-import pl.cyfrogen.budget.util.CategoriesHelper;
+import pl.cyfrogen.budget.firebase.models.WalletEntry;
+import pl.cyfrogen.budget.firebase.viewmodel_factories.TopWalletEntriesViewModelFactory;
+import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
+import pl.cyfrogen.budget.libraries.Gauge;
 import pl.cyfrogen.budget.models.Category;
 import pl.cyfrogen.budget.ui.options.OptionsActivity;
+import pl.cyfrogen.budget.util.CalendarHelper;
+import pl.cyfrogen.budget.util.CategoriesHelper;
 import pl.cyfrogen.budget.util.CurrencyHelper;
-import pl.cyfrogen.budget.R;
-import pl.cyfrogen.budget.firebase.ListDataSet;
-import pl.cyfrogen.budget.firebase.viewmodel_factories.UserProfileViewModelFactory;
-import pl.cyfrogen.budget.firebase.viewmodel_factories.TopWalletEntriesViewModelFactory;
-import pl.cyfrogen.budget.firebase.models.User;
-import pl.cyfrogen.budget.libraries.Gauge;
-import pl.cyfrogen.budget.firebase.models.WalletEntry;
 
 public class HomeFragment extends BaseFragment {
     private User user;
